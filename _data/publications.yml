@@ -12,7 +12,7 @@
     abbr: PacificVis 2017
     url: http://pacificvis.snu.ac.kr/
     page: 131-140
-    venue: Seoul, Republic of Korea
+    venue: Seoul, Korea, Republic of
   url: https://ieeexplore.ieee.org/document/8031587/
   attrs:
     - international
@@ -61,6 +61,7 @@
     - international
     - conference
     - paper
+  type: Paper
   
 - id: eyebookmark
   title: "EyeBookmark: Assisting Recovery from Interruption during Reading"
@@ -74,7 +75,7 @@
     abbr: CHI 2015
     url: http://chi2015.acm.org/
     page: 2963-2966
-    venue: Seoul, Republic of Korea
+    venue: Seoul, Korea, Republic of
   url: https://dl.acm.org/citation.cfm?id=2702340
   attrs:
     - international
@@ -101,3 +102,258 @@
     - paper
   type: Paper
 
+- id: mdm
+  title: "A Declarative Rendering Model for Multiclass Density Maps"
+  year: 2018
+  authors:
+    - Jaemin Jo
+    - Frédéric Vernier
+    - Pierre Dragicevic
+    - Jean-Daniel Fekete
+  journal:
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG, Proc. InfoVis
+    volume: 25
+    issue: 1
+    page: 470-480
+    url: https://www.computer.org/csdl/journal/tg
+  url: https://ieeexplore.ieee.org/document/8440817/
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
+- id: longline
+  title: "LongLine: Visual Analytics System for Large-scale Audit Logs"
+  year: 2018
+  authors:
+    - Seunghoon Yoo
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  journal:
+    title: Visual Informatics
+    volume: 2
+    issue: 1
+    page: 82-97
+  url: https://www.sciencedirect.com/science/article/pii/S2468502X18300159
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
+
+- id: wordleplus
+  title: "WordlePlus: Expanding Wordle’s Use through Natural Interaction and Animation"
+  year: 2015
+  authors:
+    - Jaemin Jo
+    - Bongshin Lee
+    - Jinwook Seo
+  journal:
+    title: IEEE Computer Graphics and Applications
+    volume: 35
+    issue: 6
+    page: 20-28
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=38
+  url: https://ieeexplore.ieee.org/abstract/document/7274257/
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
+
+- id: radiology
+  title: "Development of an Online Radiology Case Review System Featuring Interactive Navigation of Volumetric Image Datasets Using Advanced Visualization Techniques"
+  year: 2015
+  authors:
+    - Hyun Kyoung Yang
+    - Hyunsik Woo
+    - Jaemin Jo
+    - Min Hee Lee
+    - Bohyoung Kim
+    - Jinwook Seo
+    - Ju Hyun Jung
+    - Heung Sik Kang
+    - Kyoung Ho Lee
+  journal:
+    title: Journal of Korean Society of Radiology
+    volume: 73
+    issue: 5
+    page: 312-322
+  url: https://synapse.koreamed.org/DOIx.php?id=10.3348/jksr.2015.73.5.312
+  attrs:
+    - domestic
+    - journal
+    - paper
+  type: Paper
+
+- id: adaptive
+  title: "Adaptive Zoom-based Gaze Tracking for Enhanced Accuracy and Precision"
+  year: 2015
+  authors:
+    - Hyunjoo Song
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  journal:
+    title: KIISE Transactions on Computing Practices
+    volume: 21
+    issue: 9
+    page: 610-615
+  url: https://www.researchgate.net/publication/283246868_Adaptive_Zoom-based_Gaze_Tracking_for_Enhanced_Accuracy_and_Precision
+  attrs:
+    - domestic
+    - journal
+    - paper
+  type: Paper
+
+- id: livegantt
+  title: "LiveGantt: Interactively Visualizing a Large Manufacturing Schedule"
+  year: 2014
+  authors:
+    - Jaemin Jo
+    - Jaeseok Huh
+    - Jonghun Park
+    - Bohyoung Kim
+    - Jinwook Seo
+  journal:
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG, Proc. InfoVis
+    volume: 20
+    issue: 12
+    page: 2329-2338
+    url: https://www.computer.org/csdl/journal/tg
+  url: https://ieeexplore.ieee.org/abstract/document/6875942/
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
+- id: patentobject
+  title: "Improving User Interaction with In-document Objects in Text Editing Scenarios for Mobile Touch Input Devices"
+  year: 2017
+  authors:
+    - Jinwook Seo
+    - Hyunjoo Song
+    - Yongseok Lee
+    - Guhyun Han
+    - Youli Chang
+    - Jaemin Jo
+    - Jihyun Gook
+  attrs:
+    - domestic
+    - patent
+  type: Patent
+
+- id: patentselection
+  title: "Improving User Interaction with Multi-Finger Touch Gestures in Text Selection for Touch Input Devices"
+  year: 2018
+  authors:
+    - Jinwook Seo
+    - Yongseok Lee
+    - Jaemin Jo
+    - Guhyun Han
+    - Youli Chang
+    - Jihyun Gook
+  attrs:
+    - domestic
+    - patent
+  type: Patent
+
+- id: panenews
+  title: "A Progressive k-d Tree for Approximate k-Nearest Neighbors"
+  year: 2017
+  authors:
+    - Jaemin Jo
+    - Jinwook Seo
+    - Jean-Daniel Fekete
+  presented: 
+    title: Proceedings of the Workshop on Data Systems for Interactive Analysis
+    abbr: DSIA 2017
+    url: https://www.interactive-analysis.org/
+    venue: Pheonix, Arizona, USA
+  attrs:
+    - international
+    - conference
+    - paper
+  type: Paper
+
+- id: shouldersurfing
+  title: "Towards a Broader Understanding of Shoulder-surfing Problems"
+  year: 2018
+  authors:
+    - Sehi L'Yi
+    - Jaemin Jo
+    - DongHwa Shin
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of HCI KOREA 2018
+    page: 745-748
+    url: http://conference.hcikorea.org/hcik2018/
+    venue: Jeongseon, Korea, Republic of
+  attrs:
+    - domestic
+    - conference
+    - paper
+  type: Paper
+
+- id: swifttunaposter
+  title: "Towards a Broader Understanding of Shoulder-surfing Problems"
+  year: 2016
+  authors:
+    - Jaemin Jo
+    - Wonjae Kim
+    - Seunghoon Yoo
+    - Bohyoung Kim
+    - Jinwook Seo
+  presented:
+    title: IEEE Information Visualization  
+    url: http://ieeevis.org/year/2016/info/vis-welcome/welcome
+    venue: Baltimore, Maryland, USA
+  url: http://ieeevis.org/year/2016/info/overview-amp-topics/posters
+  attrs:
+    - international
+    - conference
+    - poster
+  type: Poster
+
+- id: eeg
+  title: "A Usability Testing Method Using EEG, EDA, BVP Biosignals"
+  year: 2016
+  authors:
+    - Jaemin Jo
+    - Wonjae Kim
+    - Seunghoon Yoo
+    - Bohyoung Kim
+    - Jinwook Seo
+  proc:
+    title: Proceedings of the Korea Computer Congress 2016
+    page: 1396-1398
+    venue: Jeongseon, Korea, Republic of
+  attrs:
+    - domestic
+    - conference
+    - poster
+  type: Poster
+
+- id: multimap
+  title: "MultiMap: Visualizing Multidimensional Hierarchical Data on Treemaps"
+  year: 2016
+  authors:
+    - Jaemin Jo
+    - Patrick Emaase
+    - Wonjae Kim
+    - Jinwook Seo
+  proc:
+    title: Proceedings of the Korea Computer Congress 2016
+    venue: Jeongseon, Korea, Republic of
+  attrs:
+    - domestic
+    - conference
+    - poster
+  type: Poster

@@ -17,22 +17,35 @@
     <div class="proc calm">
         {% if pub.proc.url %}<a href="{{ pub.proc.url }}" target="_blank">{% endif %}
         {{ pub.proc.title }}
-        {% if pub.proc.abbr %}({{ pub.proc.abbr }}){% endif -%}
-        {% if pub.proc.url %}</a>{% endif -%},
-        pp {{ pub.proc.page }}, {{ pub.proc.venue }}, {{ pub.year }}.
+        {%- if pub.proc.abbr -%}&nbsp;({{ pub.proc.abbr }}){% endif -%}
+        {% if pub.proc.url -%}</a>{%- endif -%},
+        pp. {{ pub.proc.page }}, {{ pub.proc.venue }}, {{ pub.year }}.
     </div>
     {% endif %}
 
     {% if pub.journal %}
     <div class="journal calm">
-        {% if pub.journal.url %}<a href="{{ pub.journal.url }}" target="_blank">{% endif %}
+        {% if pub.journal.url -%}<a href="{{ pub.journal.url }}" target="_blank">{% endif %}
         {{ pub.journal.title }}
-        {% if pub.journal.abbr %}({{ pub.journal.abbr }}){% endif -%}
-        {% if pub.journal.url %}</a>{% endif -%},
-        {% if pub.journal.ea %}to appear{% else %}pp {{ pub.journal.page }}{% endif %}, {{ pub.year }}.
+        {%- if pub.journal.abbr -%}&nbsp;({{ pub.journal.abbr }}){% endif -%}
+        {% if pub.journal.url -%}</a>{% endif -%},
+        {% if pub.journal.ea -%}to appear{% else -%}vol. {{ pub.journal.volume}}, no. {{ pub.journal.issue }}, pp. {{ pub.journal.page }}{% endif %}, {{ pub.year }}.
     </div>
     {% endif %}
 
+    {% if pub.presented %}
+    <div class="presented calm">
+        Presented in {% if pub.presented.url -%}<a href="{{ pub.presented.url }}">{% endif %}{{ pub.presented.title }}
+        {%- if pub.presented.abbr -%}&nbsp;({{ pub.presented.abbr }}){% endif -%}
+        {%- if pub.presented.url -%}</a>{% endif %}, {{ pub.presented.venue }}
+    </div>
+    {% endif %}
+
+    {% if pub.type == 'Patent' %}
+    <div class="calm">
+        {{ pub.year }}
+    </div>
+    {% endif %}
     {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
     <div class="extra-links">
         {% if pub.pdf %}

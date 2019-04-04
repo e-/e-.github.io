@@ -1,0 +1,8 @@
+- id: touchpivot
+  title: TouchPivot
+  lib: https://dl.acm.org/citation.cfm?id=3025752
+  pdf: /assets/TouchPivot.pdf
+  short_video: https://www.youtube.com/watch?v=0hdiF9fCgFE
+  long_video: https://www.youtube.com/watch?v=Q6quofDiO7I
+  teaser: /images/TouchPivot.png
+  featured: true

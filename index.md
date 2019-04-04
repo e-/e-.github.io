@@ -1,10 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Home
 ---
 
-dlfij
 
-<i class="fas fa-adjust"></i>
+<h2>Publications</h2>
+{% assign sorted_publications = site.data.publications %}
+
+{% for pub in sorted_publications %}
+{% include publication.html pub = pub %} 
+{% endfor %}

@@ -1,6 +1,49 @@
 ---
 ---
 
-body {
-    
+$theme-primary: #FF9800;
+
+a, a:visited { color: black; }
+
+.site-header {
+    border-top-color: $theme-primary;
+}
+
+.badge {
+    padding: .25em .4em;
+    font-size: 50%;
+    font-weight: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #6c757d;
+    line-height: 1;
+    position: relative;
+    top: -.2em;
+}
+
+h2 {
+    border-left: $theme-primary 3px solid;
+    padding-left: .3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.publication {
+    margin-bottom: 2rem;
+
+    h3 {
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-bottom: 0px;
+    }
+}
+
+.calm {
+    opacity: .5;
+
+    a {
+        color: black;
+    }
 }

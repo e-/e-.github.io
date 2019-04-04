@@ -1,0 +1,103 @@
+- id: swifttuna
+  title: "SwiftTuna: Responsive and Incremental Visual Exploration of Large-scale Multidimensional Data"
+  year: 2017
+  authors:
+    - Jaemin Jo
+    - Wonjae Kim
+    - Seunghoon Yoo
+    - Bohyoung Kim
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of the 10th IEEE Pacific Visualization Symposium
+    abbr: PacificVis 2017
+    url: http://pacificvis.snu.ac.kr/
+    page: 131-140
+    venue: Seoul, Republic of Korea
+  url: https://ieeexplore.ieee.org/document/8031587/
+  attrs:
+    - international
+    - conference
+    - paper
+  type: Paper
+
+- id: touchpivot
+  title: "TouchPivot: Blending WIMP & Post-WIMP Interfaces for Data Exploration on Tablet Devices"
+  year: 2017
+  authors:
+    - Jaemin Jo
+    - Sehi L'Yi
+    - Bongshin Lee
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of the 35rd Annual ACM Conference on Human Factors in Computing Systems
+    abbr: CHI 2017
+    url: https://chi2017.acm.org/
+    page: 2660-2671
+    venue: Denver, Colorado, USA
+  url: https://dl.acm.org/citation.cfm?id=3025752
+  attrs:
+    - international
+    - conference
+    - paper
+  type: Paper
+  
+- id: cloakingnote
+  title: "CloakingNote: A Novel Desktop Interface for Subtle Writing Using Decoy Texts"
+  year: 2016
+  authors:
+    - Sehi L'Yi
+    - Kyle Koh
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of the 29th ACM User Interface Software and Technology Symposium
+    abbr: UIST 2016
+    url: https://uist.acm.org/uist2016/
+    page: 473-481
+    venue: Tokyo, Japan
+  url: https://dl.acm.org/citation.cfm?id=2984571
+  attrs:
+    - international
+    - conference
+    - paper
+  
+- id: eyebookmark
+  title: "EyeBookmark: Assisting Recovery from Interruption during Reading"
+  year: 2015
+  authors:
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems
+    abbr: CHI 2015
+    url: http://chi2015.acm.org/
+    page: 2963-2966
+    venue: Seoul, Republic of Korea
+  url: https://dl.acm.org/citation.cfm?id=2702340
+  attrs:
+    - international
+    - conference
+    - paper
+  type: Paper
+
+- id: panene
+  title: "PANENE: A Progressive Algorithm for Indexing and Querying Approximate k-Nearest Neighbors"
+  year: 2019
+  authors:
+    - Jaemin Jo
+    - Jinwook Seo
+    - Jean-Daniel Fekete
+  journal:
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG
+    ea: true
+    url: https://www.computer.org/csdl/journal/tg
+  url: https://ieeexplore.ieee.org/document/8462793
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+

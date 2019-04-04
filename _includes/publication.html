@@ -1,0 +1,94 @@
+<div class="publication" data-pub='{{ pub | jsonify | escape }}'>
+    <h3>
+        {% if pub.url %}<a href="{{ pub.url }}" target="_blank">{% endif %}
+        {{ pub.title }}
+        {% if pub.url %}</a>{% endif %}
+        <small class="badge">{{ pub.type }}</small>
+    </h3>
+    <div class="authors">
+        {% for author in pub.authors %}
+            {% if forloop.last %} and {% endif %}
+            {% include author.html author=author -%}
+            {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    </div>
+
+    {% if pub.proc %}
+    <div class="proc calm">
+        {% if pub.proc.url %}<a href="{{ pub.proc.url }}" target="_blank">{% endif %}
+        {{ pub.proc.title }}
+        {% if pub.proc.abbr %}({{ pub.proc.abbr }}){% endif -%}
+        {% if pub.proc.url %}</a>{% endif -%},
+        pp {{ pub.proc.page }}, {{ pub.proc.venue }}, {{ pub.year }}.
+    </div>
+    {% endif %}
+
+    {% if pub.journal %}
+    <div class="journal calm">
+        {% if pub.journal.url %}<a href="{{ pub.journal.url }}" target="_blank">{% endif %}
+        {{ pub.journal.title }}
+        {% if pub.journal.abbr %}({{ pub.journal.abbr }}){% endif -%}
+        {% if pub.journal.url %}</a>{% endif -%},
+        {% if pub.journal.ea %}to appear{% else %}pp {{ pub.journal.page }}{% endif %}, {{ pub.year }}.
+    </div>
+    {% endif %}
+
+    {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
+    <div class="extra-links">
+        {% if pub.pdf %}
+        <a href="{{ pub.pdf }}">
+            <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+        </a>
+        {% endif %}
+        {% if pub.link %}
+        <a href="{{ pub.link }}">
+            <i class="fas fa-link" aria-hidden="true"></i> Project
+        </a>
+        {% endif %}
+        {% if pub.blog %}
+        <a href="{{ pub.blog }}">
+            <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+        </a>
+        {% endif %}
+        {% if pub.video %}
+        <a href="{{ pub.video }}">
+            <i class="fas fa-film" aria-hidden="true"></i> Video
+        </a>
+        {% endif %}
+        {% if pub.recording %}
+        <a href="{{ pub.recording }}">
+            <i class="fas fa-video" aria-hidden="true"></i> Recording
+        </a>
+        {% endif %}
+        {% if pub.slides %}
+        <a href="{{ pub.slides }}">
+            <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+        </a>
+        {% endif %}
+        {% if pub.doi %}
+        <a href="https://www.doi2bib.org/bib/{{ pub.doi | cgi_escape }}">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+        </a>
+        {% elsif pub.arxiv %}
+        <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+        </a>
+        {% endif %}
+        {% if pub.short_doi %}
+        <a href="http://doi.org/{{ pub.short_doi }}">
+            <i class="fas fa-anchor" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
+        </a>
+        {% endif %}
+        {% if pub.arxiv %}
+        <a href="https://arxiv.org/abs/{{ pub.arxiv }}">
+            <i class="fas fa-archive" aria-hidden="true"></i> arXiv: {{ pub.arxiv }}
+        </a>
+        {% endif %}
+        {% if pub.osf %}
+        <a href="https://osf.io/{{ pub.osf }}">
+            <i class="fas fa-archive" aria-hidden="true"></i> OSF: {{ pub.osf }}
+        </a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>

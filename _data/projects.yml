@@ -8,6 +8,7 @@
   teaser: /images/Multiclass_Density_Maps.png
   npm: https://www.npmjs.com/package/multiclass-density-maps
   desc: A declarative model for describing and rendering various multiclass density maps.
+  selected: true
 
 - id: touchpivot
   title: TouchPivot
@@ -16,7 +17,7 @@
   video_short: https://www.youtube.com/watch?v=0hdiF9fCgFE
   video: https://www.youtube.com/watch?v=Q6quofDiO7I
   teaser: /images/TouchPivot.png
-  featured: true
+  selected: true
   recording: https://www.youtube.com/watch?v=wpksrVF5MNw
   desc: TouchPivot is a novel interface that assists visual data exploration on tablet devices for novices.
 
@@ -26,6 +27,7 @@
   code: https://github.com/e-/PANENE
   teaser: images/rtsne.png
   desc: PANENE is a progressive algorithm for approximate nearest neighbor indexing and querying.
+  selected: true
 
 - id: swifttuna
   title: SwiftTuna
@@ -78,7 +80,6 @@
   teaser: /images/TouchWordle.png
   video: https://www.youtube.com/watch?v=JS07EKOiex0
   desc: Creating and editing Wordles on tabletops. Exhibited in a local art gallery.
-
 
 - id: hanguljs
   title: Hangul.js

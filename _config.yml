@@ -16,7 +16,7 @@
 title: Jaemin Jo
 email: jmjo@hcil.snu.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  Jaemin Jo is a PhD student at Human Computer Interaction Laboratory in Seoul National University. Interested in Information Visualization, Progressive Visual Analytics, and Pen and Touch Interactions
+  Jaemin Jo is a PhD student at Human Computer Interaction Laboratory in Seoul National University. Interested in Information Visualization, Progressive Visual Analytics, and Pen and Touch Interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jaeminjo.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  e-

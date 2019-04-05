@@ -13,6 +13,23 @@ a, a:visited { color: black; }
     font-family: Quicksand, sans-serif;
 }
 
+#intro {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 240px;
+    
+    p{
+        margin: 0;
+        padding-top: .8rem;
+        line-height: 1.6;
+        font-size: 1.1rem;
+    }
+
+    a, a:visited {
+        color: steelblue;
+    }
+}
+
 .badge {
     padding: .25em .4em;
     font-size: 50%;
@@ -120,6 +137,10 @@ h2 {
         border: 1px solid #eee;
         background-size: cover;
         background-position: top left;
-        transition: background 1.5s cubic-bezier(.4,0,.2,1);
+        transition: background-position 1.5s cubic-bezier(.4,0,.2,1);
     }
+}
+
+.footer-heading {
+    margin-top: 0rem;
 }

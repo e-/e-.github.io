@@ -1,0 +1,41 @@
+---
+layout: home
+title: Home
+---
+
+<h1 class="page-heading"><span id="hello">Hello,</span> I'm Jaemin Jo</h1>
+
+<section id="intro">
+<p>
+I am a six-year Ph.D student at <a href="http://hcil.snu.ac.kr">Human-Computer Interaction Laboratory</a> of Seoul National University.
+I am studying Human-Computer Interaction (HCI) and Information Visualization.
+I am especially interested in visualization and interaction on large-scale data.
+My recent interest is progressive visual analyitcs: systems that enable interactive data exploration of big data by providing intermediate approximation in the middle of computation. I also love to contribute to open-source projects. You can reach me via e-mail(<a href="mailto:jmjo@hcil.snu.ac.kr">jmjo@hcil.snu.ac.kr</a>) or Github(<a href="https://www.github.com/e-">e-</a>)!
+</p>
+<img src="{{ site.data.meta.profile | relative_url }}" alt="Picture of Jaemin" width="240" height="240">
+</section>
+
+<h2>Selected Projects</h2>
+
+<section id="projects">
+{% assign selected_projects = site.data.projects | where_exp: "item", "item.selected" %}
+{% for proj in selected_projects %}
+    {% include project.html proj=proj %}
+{% endfor %}
+</section>
+
+<h2>Selected Publications</h2>
+<section id="publications">
+{% assign selected_publications = site.data.publications | where_exp: "item", "item.selected" | sort: "year" | reverse %}
+{% for pub in selected_publications %}
+{% include publication.html pub = pub %} 
+{% endfor %}
+</section>
+
+<script>
+    if(Math.random() < 0.2) {
+        let hello = document.querySelector('#hello');
+        hello.innerHTML = '안녕?';
+        hello.style.fontFamily = "'Noto Sans KR', sans-serif";
+    }
+</script>

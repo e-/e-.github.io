@@ -16,6 +16,7 @@
     - conference
     - poster
   type: Poster
+  selected: true
     
 - id: swifttuna
   title: "SwiftTuna: Responsive and Incremental Visual Exploration of Large-scale Multidimensional Data"
@@ -38,6 +39,7 @@
     - conference
     - paper
   type: Paper
+  selected: true
 
 - id: touchpivot
   title: "TouchPivot: Blending WIMP & Post-WIMP Interfaces for Data Exploration on Tablet Devices"
@@ -59,6 +61,7 @@
     - conference
     - paper
   type: Paper
+  selected: true
   
 - id: cloakingnote
   title: "CloakingNote: A Novel Desktop Interface for Subtle Writing Using Decoy Texts"
@@ -140,6 +143,7 @@
     - journal
     - paper
   type: Paper
+  selected: true
 
 - id: mdm
   title: "A Declarative Rendering Model for Multiclass Density Maps"
@@ -162,6 +166,7 @@
     - journal
     - paper
   type: Paper
+  selected: true
 
 
 

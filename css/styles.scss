@@ -9,6 +9,10 @@ a, a:visited { color: black; }
     border-top-color: $theme-primary;
 }
 
+.site-title {
+    font-family: Quicksand, sans-serif;
+}
+
 .badge {
     padding: .25em .4em;
     font-size: 50%;
@@ -59,7 +63,7 @@ h2 {
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 20px;
 
     .project {
         border-radius: 2px;
@@ -72,7 +76,8 @@ h2 {
             line-height: 1;
             border-left: $theme-primary 3px solid;
             padding-left: .5rem;
-
+            font-family: 'Quicksand', sans-serif;
+            font-weight: normal;
             transition: border-left-color 135ms cubic-bezier(.4,0,.2,1);
         }
 
@@ -115,6 +120,6 @@ h2 {
         border: 1px solid #eee;
         background-size: cover;
         background-position: top left;
-        transition: background 1s cubic-bezier(.4,0,.2,1);
+        transition: background 1.5s cubic-bezier(.4,0,.2,1);
     }
 }

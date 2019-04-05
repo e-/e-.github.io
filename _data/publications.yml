@@ -1,3 +1,22 @@
+- id: soundglance
+  title: "SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users"
+  authors:
+    - Jaeyoon Song
+    - Kiroong Choe
+    - Jaemin Jo
+    - Jinwook Seo
+  presented:
+    title: ACM Conference on Human Factors in Computing Systems
+    abbr: CHI 2019
+    url: https://chi2019.acm.org/
+    venue: Glasgow, United Kingdom
+  year: 2019
+  attrs:
+    - international
+    - conference
+    - poster
+  type: Poster
+    
 - id: swifttuna
   title: "SwiftTuna: Responsive and Incremental Visual Exploration of Large-scale Multidimensional Data"
   year: 2017

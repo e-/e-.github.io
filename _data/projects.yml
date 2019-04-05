@@ -66,6 +66,19 @@
   teaser: /images/LiveGantt.png
   desc: Simplifying a complex Gantt chart through reordering and aggregation.
   
+- id: soundglance
+  title: SoundGlance
+  pdf: /assets/SoundGlance.pdf
+  code: https://github.com/SoundGlance/SoundGlance
+  teaser: /images/SoundGlance.png
+  desc: Briefing the glanceable cues of Web pages for screen reader users
+
+- id: touchwordle
+  title: Wordle on Tabletop
+  teaser: /images/TouchWordle.png
+  video: https://www.youtube.com/watch?v=JS07EKOiex0
+  desc: Creating and editing Wordles on tabletops. Exhibited in a local art gallery.
+
 
 - id: hanguljs
   title: Hangul.js
@@ -74,6 +87,14 @@
   code: https://github.com/e-/Hangul.js
   npm: https://www.npmjs.com/package/hangul-js
   demo: https://e-.github.io/Hangul.js/examples/
+
+
+- id: atari2600
+  title: Atari2600
+  code: https://github.com/e-/Atari2600
+  desc: A JavaSciprt porting of an Atari2600 emulator
+  demo: http://e-.github.io/Atari2600/
+  teaser: /images/Atari2600.png
 
 - id: josajs
   title: Josa.js
@@ -89,19 +110,12 @@
   desc: An online training course developed to train radiologists to interpret low-dose appendiceal CT.
   teaser: /images/Locat.png
 
-- id: treecolorjs
-  title: TreeColors.js
-  npm: https://www.npmjs.com/package/treecolors
-  desc: "A JavaScript implementation of \"TreeColors: Color Schemes for Tree-Structured Data\"."
-  demo: http://e-.github.io/TreeColors.js/demo
-  code: https://github.com/e-/TreeColors.js
-  teaser: /images/TreeColorsjs.png
-
-- id: nmapjs
-  title: Nmap.js
-  desc: "A JavaScript implementation of \"Nmap: A Novel Neighborhood Preservation Space-filling Algorithm\"."
-  code: https://github.com/e-/Nmap.js
-  teaser: /images/Nmapjs.png
+- id: multimap
+  title: MultiMap
+  demo: https://e-.github.io/MultiMap/
+  code: https://github.com/e-/MultiMap
+  teaser: /images/MultiMap.png
+  desc: Visualization inside Treemap allows you to explore various aspects of hierarchical datasets.
 
 - id: scatterplotanime
   title: ScatterplotAnime
@@ -110,47 +124,54 @@
   demo: https://e-.github.io/ScatterplotAnime/
   teaser: /images/ScatterplotAnime.png
 
+- id: nmapjs
+  title: Nmap.js
+  desc: "A JavaScript implementation of \"Nmap: A Novel Neighborhood Preservation Space-filling Algorithm\"."
+  code: https://github.com/e-/Nmap.js
+  teaser: /images/Nmapjs.png
+
+- id: painting
+  teaser: /images/Ink_and_wash.jpg
+  title: Ink-and-Wash Painting
+  desc: Simulating brush strokes in ink-and-wash paintings.
+
+- id: treecolorjs
+  title: TreeColors.js
+  npm: https://www.npmjs.com/package/treecolors
+  desc: "A JavaScript implementation of \"TreeColors: Color Schemes for Tree-Structured Data\"."
+  demo: http://e-.github.io/TreeColors.js/demo
+  code: https://github.com/e-/TreeColors.js
+  teaser: /images/TreeColorsjs.png
+
 - id: hsijs
   title: hsi.js
   code: https://github.com/e-/hsi.js
   desc: A micro JavaScript library for conversion between RGB and HSI color spaces.
   teaser: /images/hsijs.png
 
-- id: atari2600
-  title: Atari2600
+- id: sliduino
+  title: Sliduino
+  teaser: /images/Sliduino.jpg
+  desc: A mobile prototype for controlling presentation slides 
 
 - id: opticsjs
   title: optics.js
+  desc: optics.js is an open source JavaScript implemenation of the OPTICS clustering algorithm on Web browsers and node.js.
+  code: https://github.com/e-/optics.js
+  demo: http://e-.github.io/optics.js/demo/
+  teaser: /images/opticsjs.png
 
 - id: MulticoreComputing
   title: Multicore Examples
+  teaser: /images/Multicore_Examples.png
+  desc: Code snippets of multicore computation.
+  code: https://github.com/e-/MulticoreComputing
 
 - id: columnDB
   title: ColumnDB
-
-- id: soundglance
-  title: SoundGlance
-  code: https://github.com/SoundGlance/SoundGlance
-
-- id: sliduino
-  title: Sliduino
-
-
-- id: painting
-  title: Painter
-
-- id: ineetaphone
-  title: IneetaPhone
-
-- id: wordlemoa
-  title: Wordle on Tabletop
-
-- id: multimap
-  title: MultiMap
-  demo: https://e-.github.io/MultiMap/
-  code: https://github.com/e-/MultiMap
-  teaser: /images/MultiMap.png
-  desc: Visualization inside Treemap allows you to explore various aspects of hierarchical datasets.
+  code: https://github.com/e-/ColumnDB
+  teaser: /images/ColumnDB.png
+  desc: A super-simple columnar database.
 
 
 - id: panenedsia

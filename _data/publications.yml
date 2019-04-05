@@ -83,9 +83,29 @@
     - paper
   type: Paper
 
+- id: longline
+  title: "LongLine: Visual Analytics System for Large-scale Audit Logs"
+  year: 2018
+  authors:
+    - Seunghoon Yoo
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  journal:
+    title: Visual Informatics
+    volume: 2
+    issue: 1
+    page: 82-97
+  url: https://www.sciencedirect.com/science/article/pii/S2468502X18300159
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
 - id: panene
   title: "PANENE: A Progressive Algorithm for Indexing and Querying Approximate k-Nearest Neighbors"
-  year: 2019
+  year: 2018
   authors:
     - Jaemin Jo
     - Jinwook Seo
@@ -124,25 +144,6 @@
     - paper
   type: Paper
 
-- id: longline
-  title: "LongLine: Visual Analytics System for Large-scale Audit Logs"
-  year: 2018
-  authors:
-    - Seunghoon Yoo
-    - Jaemin Jo
-    - Bohyoung Kim
-    - Jinwook Seo
-  journal:
-    title: Visual Informatics
-    volume: 2
-    issue: 1
-    page: 82-97
-  url: https://www.sciencedirect.com/science/article/pii/S2468502X18300159
-  attrs:
-    - international
-    - journal
-    - paper
-  type: Paper
 
 
 - id: wordleplus
@@ -265,7 +266,7 @@
     - patent
   type: Patent
 
-- id: panenews
+- id: panenedsia
   title: "A Progressive k-d Tree for Approximate k-Nearest Neighbors"
   year: 2017
   authors:
@@ -303,7 +304,7 @@
   type: Paper
 
 - id: swifttunaposter
-  title: "Towards a Broader Understanding of Shoulder-surfing Problems"
+  title: "Incrementally Exploring Large-scale Multidimensional Data"
   year: 2016
   authors:
     - Jaemin Jo
@@ -326,10 +327,12 @@
   title: "A Usability Testing Method Using EEG, EDA, BVP Biosignals"
   year: 2016
   authors:
+    - Youli Chang
+    - Brian J. Lee
+    - GuHyun Han
+    - Hyunjoo Song
     - Jaemin Jo
-    - Wonjae Kim
-    - Seunghoon Yoo
-    - Bohyoung Kim
+    - Han Joo Chae
     - Jinwook Seo
   proc:
     title: Proceedings of the Korea Computer Congress 2016

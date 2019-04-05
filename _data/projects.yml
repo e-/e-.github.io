@@ -2,7 +2,69 @@
   title: TouchPivot
   lib: https://dl.acm.org/citation.cfm?id=3025752
   pdf: /assets/TouchPivot.pdf
-  short_video: https://www.youtube.com/watch?v=0hdiF9fCgFE
-  long_video: https://www.youtube.com/watch?v=Q6quofDiO7I
+  video_short: https://www.youtube.com/watch?v=0hdiF9fCgFE
+  video: https://www.youtube.com/watch?v=Q6quofDiO7I
   teaser: /images/TouchPivot.png
   featured: true
+  recording: https://www.youtube.com/watch?v=wpksrVF5MNw
+  desc: TouchPivot is a novel interface that assists visual data exploration on tablet devices for novices.
+
+- id: panene
+  title: PANENE
+  pdf: https://ieeexplore.ieee.org/document/8462793
+  code: https://github.com/e-/PANENE
+
+- id: longline
+  title: LongLine
+  pdf: https://www.sciencedirect.com/science/article/pii/S2468502X18300159
+  hidden: true
+
+- id: mdm
+  title: Multiclass Maps
+  pdf: /assets/Multiclass_Density_Maps.pdf
+  demo: https://jaeminjo.github.io/Multiclass-Density-Maps/
+  code: https://github.com/e-/Multiclass-Density-Maps
+  recording: https://vimeo.com/299850886
+  video_short: https://vimeo.com/289785026
+
+- id: swifttuna
+  pdf: /assets/SwiftTuna.pdf
+  video: https://www.youtube.com/watch?v=NEakQy_ZhhI
+
+- id: panenedsia
+  pdf: /assets/Progressive_KD_Tree.pdf
+  code: https://github.com/e-/PANENE
+
+- id: cloakingnote
+  pdf: /assets/CloakingNote.pdf
+  demo: https://chrome.google.com/webstore/detail/cloakingvideo-watch-youtu/eledmaedpclngopnlgnacehkpkpfpbcj
+  video_short: https://www.youtube.com/watch?v=DqDvDoIwKEU
+
+- id: swifttunaposter
+  pdf: /assets/SwiftTuna_poster_submission.pdf
+  poster: /assets/SwiftTuna_poster.pdf
+  video: https://www.youtube.com/watch?v=NEakQy_ZhhI
+
+
+- id: eyebookmark
+  pdf: /assets/EyeBookmark.pdf
+  video_short: https://www.youtube.com/watch?v=YQ4YQEbA2dw
+
+- id: wordleplus
+  pdf: /assets/WordlePlus.pdf
+  video: https://vimeo.com/146855580
+
+- id: livegantt
+  pdf: /assets/LiveGantt.pdf
+  video: https://www.youtube.com/watch?v=f7KepgS-938
+  video_short: https://www.youtube.com/watch?v=fZFv2dxgJ90
+  demo: https://e-.github.io/LiveGantt-full-demo/
+  code: https://github.com/e-/LiveGantt-full-demo
+  
+- id: multimap
+  demo: https://e-.github.io/MultiMap/
+  code: https://github.com/e-/MultiMap
+
+- id: radiology
+  video_short: https://www.youtube.com/watch?v=XeySxym3eOM
+  link: http://www.locat.org/locat_training

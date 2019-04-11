@@ -1,6 +1,6 @@
 ---
 ---
-
+@import 'minima.scss';
 $theme-primary: #FF9800;
 
 a, a:visited { color: black; }
@@ -143,4 +143,41 @@ h2 {
 
 .footer-heading {
     margin-top: 0rem;
+}
+
+@include media-query($on-palm) {
+    #intro {
+        display: flex;
+        flex-flow: column;
+
+        img {
+            margin: auto;
+            margin-top: 1rem;
+        }
+    }
+    
+    #projects {
+        display: flex;
+        flex-flow: column;
+
+        .project {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .site-nav {
+        z-index: 20;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .post-content {
+        margin-bottom: 0;
+    }
+
+    .page-content {
+        padding-bottom: 1rem;
+    }
 }

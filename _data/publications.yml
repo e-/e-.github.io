@@ -1,3 +1,22 @@
+- id: disentangling
+  title: "Disentangled Representation of Data Distributions in Scatterplots"
+  year: 2019
+  authors:
+    - Jaemin Jo
+    - Jinwook Seo
+  proc: 
+    title: Proceedings of IEEE Information Visualization 2019
+    abbr: IEEE InfoVis 2019 Short
+    url: http://ieeevis.org/year/2019/welcome
+    ea: true
+    venue: Vancouver, Canada
+  url: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf
+  attrs:
+    - international    
+    - paper
+  type: Paper
+  selected: true
+
 - id: soundglance
   title: "SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users"
   authors:
@@ -11,12 +30,12 @@
     url: https://chi2019.acm.org/
     venue: Glasgow, United Kingdom
   year: 2019
+  url: https://dl.acm.org/citation.cfm?id=3312865
   attrs:
     - international
     - conference
     - poster
   type: Poster
-  selected: true
     
 - id: swifttuna
   title: "SwiftTuna: Responsive and Incremental Visual Exploration of Large-scale Multidimensional Data"

@@ -9,7 +9,7 @@
         {% for author in pub.authors %}
             {% if forloop.last %} and {% endif %}
             {% include author.html author=author -%}
-            {% unless forloop.last %}, {% endunless %}
+            {% if forloop.last != true and pub.authors.size > 2 %}, {% endif %}
         {% endfor %}
     </div>
 
@@ -19,7 +19,7 @@
         {{ pub.proc.title }}
         {%- if pub.proc.abbr -%}&nbsp;({{ pub.proc.abbr }}){% endif -%}
         {% if pub.proc.url -%}</a>{%- endif -%},
-        pp. {{ pub.proc.page }}, {{ pub.proc.venue }}, {{ pub.year }}.
+        {% if pub.proc.ea -%}to appear{% else -%}pp. {{ pub.proc.page }}, {{ pub.proc.venue }}{% endif %}, {{ pub.year }}.
     </div>
     {% endif %}
 

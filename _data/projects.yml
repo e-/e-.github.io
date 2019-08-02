@@ -1,3 +1,11 @@
+- id: disentangling
+  title: Disentangling Scatterplots Images
+  pdf: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf
+  code: https://github.com/e-/Disentangling-Scatterplots  
+  teaser: /images/disentangling.png  
+  desc: A β-VAE model trained to disentangle scatterplot images.
+  selected: true
+
 - id: mdm
   title: Multiclass Maps
   pdf: /assets/Multiclass_Density_Maps.pdf

@@ -4,7 +4,6 @@
   code: https://github.com/e-/Disentangling-Scatterplots  
   teaser: /images/disentangling.png  
   desc: A β-VAE model trained to disentangle scatterplot images.
-  selected: true
 
 - id: mdm
   title: Multiclass Maps

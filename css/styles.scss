@@ -1,6 +1,6 @@
 ---
 ---
-
+@import 'minima.scss';
 $theme-primary: #FF9800;
 
 a, a:visited { color: black; }
@@ -27,6 +27,16 @@ a, a:visited { color: black; }
 
     a, a:visited {
         color: steelblue;
+    }
+
+    img {
+        border-radius: 5px;
+        box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+        transition: box-shadow 135ms cubic-bezier(.4,0,.2,1);
+
+        &:hover {
+            box-shadow: 0 1px 3px 1px rgba(60,64,67,.2), 0 2px 8px 4px rgba(60,64,67,.1);
+        }
     }
 }
 
@@ -143,4 +153,41 @@ h2 {
 
 .footer-heading {
     margin-top: 0rem;
+}
+
+@include media-query($on-palm) {
+    #intro {
+        display: flex;
+        flex-flow: column;
+
+        img {
+            margin: auto;
+            margin-top: 1rem;
+        }
+    }
+    
+    #projects {
+        display: flex;
+        flex-flow: column;
+
+        .project {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .site-nav {
+        z-index: 20;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .post-content {
+        margin-bottom: 0;
+    }
+
+    .page-content {
+        padding-bottom: 1rem;
+    }
 }
